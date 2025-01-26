@@ -1,5 +1,5 @@
 import "./App.css";
-import { useLocalStorage } from "./useLocalStorage";
+import { useLocalStorage } from "./useLocalStorage.ts";
 
 function App() {
   const [value, { setItem, removeItem }] = useLocalStorage("some-key");
